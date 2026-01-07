@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
+add_compile_definitions(PIO_USB_DP_PIN=12)
 
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
