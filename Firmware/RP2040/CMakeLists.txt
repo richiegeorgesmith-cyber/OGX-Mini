@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.13)
+add_compile_definitions(PIO_USB_DP_PIN=12)
 
 include(${CMAKE_CURRENT_LIST_DIR}/../FWDefines.cmake)
 
